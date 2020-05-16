@@ -23,7 +23,7 @@ function retval = netderivative (values, span, step)
     der(i) = res/step;
   end
   retval = der;
-  plot(x, values,"r", x(1:length(x)-iter), der, "g");
+  plot(x, values,"y", x(1:length(x)-iter), der, "b");
   
       
 endfunction
